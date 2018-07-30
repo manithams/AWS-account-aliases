@@ -1,0 +1,5 @@
+---
+- name: Setup AWS account alias name
+  hosts: localhost
+  roles:
+   - aws_alias_role

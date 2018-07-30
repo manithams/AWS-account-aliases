@@ -10,7 +10,7 @@ The ansible role takes AWS alias name as a parameter and customizes it according
 
 - **Role Name:** aws_alias_role
 - **Parameters:**
-      Please set the following variables in `manithams-automation-test/aws_alias_role/vars/main.yaml`  before proceeding. 
+      Please set the following variables in `./aws_alias_role/vars/main.yaml`  before proceeding. 
 
   * **aws_account_alias:** If set, changes AWS account alias name.
                          If this parameter is not set, role does
@@ -24,7 +24,7 @@ The ansible role takes AWS alias name as a parameter and customizes it according
                      
   ## Usage 
   ```
-  ansible-playbook /root/manithams-automation-test/aws_alias_role.yaml
+  ansible-playbook ./aws_alias_role.yaml
   ```
   
   ## Output 
